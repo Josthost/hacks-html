@@ -1,0 +1,58 @@
+
+header{
+    background-color: black;
+    
+}
+
+header h1{
+    font-size: 60px;
+    color: #ffffff;
+    text-align: center;
+    padding: 5rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+    background-color: grey;
+    height: 30rem;
+}
+
+.hack{
+    padding-top: 15rem;
+    width: 5rem;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.hack p{
+    font-size: 15px;
+    color: #ffffff;
+    height: 20rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.hack:hover{
+    background-color: #ffffff;
+    transition: 1.2s;
+}
+
+.hack p:hover{
+    color: black;
+    transition: 1.2s;
+}
+
+footer{
+    height: 5rem;
+    text-align: center;
+    background-color: black;
+    color: #ffffff;
+    font-size: 60px;
+    padding: 5rem;
+}
